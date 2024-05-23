@@ -8,7 +8,7 @@ export const getContacts = async (query: string, currentPage: number) => {
                     { 
                         name:{ 
                             contains: query, 
-                            mode: "insensitive" // tidak peduli kapital / ga
+                            mode: "insensitive" // tidak peduli kapital / ga sdsdfdf
                         }
                     }, { 
                         phone:{ 
